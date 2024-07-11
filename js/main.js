@@ -54,7 +54,7 @@ $(window).scroll(function () {
   var sectionOffset = $("#form").offset().top;
   let top = sectionOffset + 50
 
-  if (scrollTop >= sectionOffset) {
+  if (scrollTop >= sectionOffset - 50) {
     $('.upIcon').css('top', top)
     $('.upIcon').css('opacity','1')
   } else{
