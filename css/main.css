@@ -1,0 +1,164 @@
+body,html{
+    scroll-behavior: smooth;
+}
+
+.upIcon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+aside{
+    height: 100%;
+    background-color: red;
+}
+aside .sideBar{
+    height: 100%;
+    background-color: black;
+    width:0px;
+    overflow: hidden;
+    padding: 0px;
+}
+#home{
+    background:linear-gradient( rgba(255, 42, 0, 0.513), rgba(255, 42, 0, 0.513)), url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+#home h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+#home p{
+    font-size: 16px;
+    font-weight: 400;
+}
+aside .icon i{
+    cursor: pointer;
+    color: #fff;
+}
+aside .icon i:hover{
+    color: #871E24;
+}
+aside a{
+   color: #fff;
+   font-size: 25px;
+   font-weight: 400;
+}
+aside a:hover{
+    color: #871E24;
+}
+.open{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    cursor: pointer;
+}
+.open span{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+#details{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-block: 20px;
+    padding-block: 70px;
+}
+#details h3{
+    background-color: #E68186;
+    color: #fff;
+    margin: 0;
+    padding-block: 10px;
+    cursor: pointer;
+}
+#details p{
+    background-color: #CCCCCC;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0;
+    display: none;
+}
+
+#contDown{
+    background:linear-gradient( rgba(255, 42, 0, 0.513), rgba(255, 42, 0, 0.513)), url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.days,.hours,.min,.sec{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#form{
+    padding-block: 70px;
+}
+#form h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+#form h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+#form p{
+    color: rgb(119, 119, 119);
+}
+#form .contact{
+    color: rgb(119, 119, 119);
+}
+#form .contact i,#form .contact span{
+    margin-bottom: 20px;
+}
+#form .icons{
+    color: rgb(119, 119, 119);
+    margin-top: 20px;
+}
+#form .icons span{
+    display: inline-flex;
+    border: 1px solid rgb(119, 119, 119);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#form .icons span:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+#form .form p{
+    color: black;
+    margin-top: 20px;
+}
+#form .form p span{
+    color: red;
+    font-size: 20px;
+}
+#form .form button{
+    background-color: red;
+    color: #fff;
+    margin-top: 10px;
+}
